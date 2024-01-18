@@ -65,5 +65,34 @@ public class App
         for (int i = 0; i < totalWaitingTime.size(); i++) {
         	System.out.println("Programer " + developers.get(i) + " je ukupno čekao: " + totalWaitingTime.get(i));
 		}
+        
+      //Izračunavanje vremena koje nam govori koliko se čekalo pojedinog programera
+        for (Commit commit : commitList.subList(1, commitList.size())) {
+			if (commit.getTip().equals("MC")) {
+				MCList.add(commit);
+			}
+		}
+        
+        List<Integer> timeList = new ArrayList<>();
+        Integer waitingTimeZ = 0;
+        Integer waitingTimeP = 0;
+        Integer waitingTimeC = 0;
+        timeList.add(0);
+        for (int i = 0; i < MCList.size(); i++) {
+			Integer waitTime = Integer.parseInt(MCList.get(i).getVrijeme()) - timeList.get(i);
+			if (MCList.get(i).getProgramer().equals("Z")) {
+				waitingTimeZ += waitTime;
+			} else if (MCList.get(i).getProgramer().equals("P")) {
+				waitingTimeP += waitTime;
+			} else if (MCList.get(i).getProgramer().equals("C")) {
+				waitingTimeC += waitTime;
+			}
+			timeList.add(Integer.parseInt(MCList.get(i).getVrijeme()));
+		}
+        
+        System.out.println("Vrijeme čekanja pojedinog programera:");
+        System.out.println("Programera Z se ukupno čekalo: " + waitingTimeZ);
+        System.out.println("Programera P se ukupno čekalo: " + waitingTimeP);
+        System.out.println("Programera C se ukupno čekalo: " + waitingTimeC);
     }
 }
