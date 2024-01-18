@@ -45,5 +45,25 @@ public class App
 				}
 			}
 		}
+        
+      //Izračunavanje vremena kojeg je programer proveo čekajući
+        for (Developer developer : developerCommitList) {
+        	Integer sumMC = 0;
+        	Integer sumBC = 0;
+        	for (int i = 1; i < developer.getCommitList().size()-1; i++) {
+				if (developer.getCommitList().get(i).getTip().equals("BC")) {
+					sumBC += Integer.parseInt(developer.getCommitList().get(i).getVrijeme());
+				}
+				else {
+					sumMC += Integer.parseInt(developer.getCommitList().get(i).getVrijeme());
+				}
+			}
+        	totalWaitingTime.add(sumBC - sumMC);
+		}
+        
+        System.out.println("Ukupno vrijeme čekanja:");
+        for (int i = 0; i < totalWaitingTime.size(); i++) {
+        	System.out.println("Programer " + developers.get(i) + " je ukupno čekao: " + totalWaitingTime.get(i));
+		}
     }
 }
