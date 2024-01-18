@@ -1,0 +1,422 @@
+﻿[
+    {
+        "ID": "1",
+        "Programer": "-",
+        "Vrijeme": "1",
+        "Tip": "-",
+        "Roditelji": "-"
+    },
+    {
+        "ID": "2",
+        "Programer": "Z",
+        "Vrijeme": "2",
+        "Tip": "BC",
+        "Roditelji": "1"
+    },
+    {
+        "ID": "3",
+        "Programer": "P",
+        "Vrijeme": "2",
+        "Tip": "BC",
+        "Roditelji": "1"
+    },
+    {
+        "ID": "4",
+        "Programer": "C",
+        "Vrijeme": "2",
+        "Tip": "BC",
+        "Roditelji": "1"
+    },
+    {
+        "ID": "5",
+        "Programer": "P",
+        "Vrijeme": "3",
+        "Tip": "FC",
+        "Roditelji": "3"
+    },
+    {
+        "ID": "6",
+        "Programer": "Z",
+        "Vrijeme": "5",
+        "Tip": "FC",
+        "Roditelji": "2"
+    },
+    {
+        "ID": "7",
+        "Programer": "Z",
+        "Vrijeme": "7",
+        "Tip": "FC",
+        "Roditelji": "6"
+    },
+    {
+        "ID": "8",
+        "Programer": "C",
+        "Vrijeme": "9",
+        "Tip": "FC",
+        "Roditelji": "4"
+    },
+    {
+        "ID": "9",
+        "Programer": "P",
+        "Vrijeme": "9",
+        "Tip": "FC",
+        "Roditelji": "5"
+    },
+    {
+        "ID": "10",
+        "Programer": "Z",
+        "Vrijeme": "10",
+        "Tip": "MC",
+        "Roditelji": "1,7"
+    },
+    {
+        "ID": "11",
+        "Programer": "P",
+        "Vrijeme": "12",
+        "Tip": "MC",
+        "Roditelji": "10,9"
+    },
+    {
+        "ID": "12",
+        "Programer": "C",
+        "Vrijeme": "13",
+        "Tip": "MC",
+        "Roditelji": "11,8"
+    },
+    {
+        "ID": "13",
+        "Programer": "Z",
+        "Vrijeme": "14",
+        "Tip": "BC",
+        "Roditelji": "12"
+    },
+    {
+        "ID": "14",
+        "Programer": "P",
+        "Vrijeme": "14",
+        "Tip": "BC",
+        "Roditelji": "12"
+    },
+    {
+        "ID": "15",
+        "Programer": "C",
+        "Vrijeme": "14",
+        "Tip": "BC",
+        "Roditelji": "12"
+    },
+    {
+        "ID": "16",
+        "Programer": "P",
+        "Vrijeme": "17",
+        "Tip": "FC",
+        "Roditelji": "14"
+    },
+    {
+        "ID": "17",
+        "Programer": "P",
+        "Vrijeme": "18",
+        "Tip": "FC",
+        "Roditelji": "16"
+    },
+    {
+        "ID": "18",
+        "Programer": "C",
+        "Vrijeme": "22",
+        "Tip": "FC",
+        "Roditelji": "15"
+    },
+    {
+        "ID": "19",
+        "Programer": "Z",
+        "Vrijeme": "23",
+        "Tip": "FC",
+        "Roditelji": "13"
+    },
+    {
+        "ID": "20",
+        "Programer": "P",
+        "Vrijeme": "25",
+        "Tip": "FC",
+        "Roditelji": "17"
+    },
+    {
+        "ID": "21",
+        "Programer": "C",
+        "Vrijeme": "26",
+        "Tip": "MC",
+        "Roditelji": "12,18"
+    },
+    {
+        "ID": "22",
+        "Programer": "P",
+        "Vrijeme": "27",
+        "Tip": "MC",
+        "Roditelji": "21,20"
+    },
+    {
+        "ID": "23",
+        "Programer": "Z",
+        "Vrijeme": "28",
+        "Tip": "MC",
+        "Roditelji": "22,19"
+    },
+    {
+        "ID": "24",
+        "Programer": "Z",
+        "Vrijeme": "29",
+        "Tip": "BC",
+        "Roditelji": "23"
+    },
+    {
+        "ID": "25",
+        "Programer": "P",
+        "Vrijeme": "29",
+        "Tip": "BC",
+        "Roditelji": "23"
+    },
+    {
+        "ID": "26",
+        "Programer": "C",
+        "Vrijeme": "29",
+        "Tip": "BC",
+        "Roditelji": "23"
+    },
+    {
+        "ID": "27",
+        "Programer": "C",
+        "Vrijeme": "33",
+        "Tip": "FC",
+        "Roditelji": "26"
+    },
+    {
+        "ID": "28",
+        "Programer": "P",
+        "Vrijeme": "35",
+        "Tip": "FC",
+        "Roditelji": "25"
+    },
+    {
+        "ID": "29",
+        "Programer": "C",
+        "Vrijeme": "36",
+        "Tip": "FC",
+        "Roditelji": "27"
+    },
+    {
+        "ID": "30",
+        "Programer": "Z",
+        "Vrijeme": "37",
+        "Tip": "FC",
+        "Roditelji": "24"
+    },
+    {
+        "ID": "31",
+        "Programer": "P",
+        "Vrijeme": "39",
+        "Tip": "FC",
+        "Roditelji": "28"
+    },
+    {
+        "ID": "32",
+        "Programer": "P",
+        "Vrijeme": "41",
+        "Tip": "FC",
+        "Roditelji": "31"
+    },
+    {
+        "ID": "33",
+        "Programer": "C",
+        "Vrijeme": "42",
+        "Tip": "FC",
+        "Roditelji": "29"
+    },
+    {
+        "ID": "34",
+        "Programer": "P",
+        "Vrijeme": "44",
+        "Tip": "MC",
+        "Roditelji": "23, 32"
+    },
+    {
+        "ID": "35",
+        "Programer": "C",
+        "Vrijeme": "47",
+        "Tip": "MC",
+        "Roditelji": "34,33"
+    },
+    {
+        "ID": "36",
+        "Programer": "Z",
+        "Vrijeme": "48",
+        "Tip": "MC",
+        "Roditelji": "35,30"
+    },
+    {
+        "ID": "37",
+        "Programer": "Z",
+        "Vrijeme": "49",
+        "Tip": "BC",
+        "Roditelji": "36"
+    },
+    {
+        "ID": "38",
+        "Programer": "P",
+        "Vrijeme": "49",
+        "Tip": "BC",
+        "Roditelji": "36"
+    },
+    {
+        "ID": "39",
+        "Programer": "C",
+        "Vrijeme": "49",
+        "Tip": "BC",
+        "Roditelji": "36"
+    },
+    {
+        "ID": "40",
+        "Programer": "P",
+        "Vrijeme": "51",
+        "Tip": "FC",
+        "Roditelji": "38"
+    },
+    {
+        "ID": "41",
+        "Programer": "C",
+        "Vrijeme": "53",
+        "Tip": "FC",
+        "Roditelji": "39"
+    },
+    {
+        "ID": "42",
+        "Programer": "Z",
+        "Vrijeme": "53",
+        "Tip": "FC",
+        "Roditelji": "37"
+    },
+    {
+        "ID": "43",
+        "Programer": "Z",
+        "Vrijeme": "56",
+        "Tip": "FC",
+        "Roditelji": "42"
+    },
+    {
+        "ID": "44",
+        "Programer": "C",
+        "Vrijeme": "59",
+        "Tip": "MC",
+        "Roditelji": "36,41"
+    },
+    {
+        "ID": "45",
+        "Programer": "Z",
+        "Vrijeme": "61",
+        "Tip": "MC",
+        "Roditelji": "44,43"
+    },
+    {
+        "ID": "46",
+        "Programer": "P",
+        "Vrijeme": "61",
+        "Tip": "FC",
+        "Roditelji": "40"
+    },
+    {
+        "ID": "47",
+        "Programer": "P",
+        "Vrijeme": "64",
+        "Tip": "MC",
+        "Roditelji": "45,46"
+    },
+    {
+        "ID": "48",
+        "Programer": "Z",
+        "Vrijeme": "65",
+        "Tip": "BC",
+        "Roditelji": "47"
+    },
+    {
+        "ID": "49",
+        "Programer": "P",
+        "Vrijeme": "65",
+        "Tip": "BC",
+        "Roditelji": "47"
+    },
+    {
+        "ID": "50",
+        "Programer": "C",
+        "Vrijeme": "65",
+        "Tip": "BC",
+        "Roditelji": "47"
+    },
+    {
+        "ID": "51",
+        "Programer": "Z",
+        "Vrijeme": "67",
+        "Tip": "FC",
+        "Roditelji": "48"
+    },
+    {
+        "ID": "52",
+        "Programer": "C",
+        "Vrijeme": "69",
+        "Tip": "FC",
+        "Roditelji": "50"
+    },
+    {
+        "ID": "53",
+        "Programer": "C",
+        "Vrijeme": "71",
+        "Tip": "FC",
+        "Roditelji": "52"
+    },
+    {
+        "ID": "54",
+        "Programer": "P",
+        "Vrijeme": "72",
+        "Tip": "FC",
+        "Roditelji": "49"
+    },
+    {
+        "ID": "55",
+        "Programer": "Z",
+        "Vrijeme": "74",
+        "Tip": "FC",
+        "Roditelji": "51"
+    },
+    {
+        "ID": "56",
+        "Programer": "C",
+        "Vrijeme": "77",
+        "Tip": "FC",
+        "Roditelji": "53"
+    },
+    {
+        "ID": "57",
+        "Programer": "Z",
+        "Vrijeme": "78",
+        "Tip": "MC",
+        "Roditelji": "47,55"
+    },
+    {
+        "ID": "58",
+        "Programer": "C",
+        "Vrijeme": "81",
+        "Tip": "MC",
+        "Roditelji": "57,56"
+    },
+    {
+        "ID": "59",
+        "Programer": "P",
+        "Vrijeme": "82",
+        "Tip": "FC",
+        "Roditelji": "54"
+    },
+    {
+        "ID": "60",
+        "Programer": "P",
+        "Vrijeme": "83",
+        "Tip": "MC",
+        "Roditelji": "58,59"
+    }
+]
